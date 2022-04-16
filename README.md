@@ -2,19 +2,19 @@
 
 **Android端 MVVM + Jetpack 架构组件的Github客户端。**
 
-* [English Document](https://github.com/qingmei2/MVVM-Architecture/blob/master/README_EN.md) | 中文文档
+* [English Document](https://github.com/gavibYip/MVVM-Architecture/blob/master/README_EN.md) | 中文文档
 
 ## 通知
 
 这个项目采用了数种 `MVVM` 的实现方式，你可以参考任意感兴趣的进行了解：
 
-* [Jetpack + Coroutine + Dagger-Hilt](https://github.com/qingmei2/MVVM-Architecture) 
-* [Jetpack + Coroutine + Kodein](https://github.com/qingmei2/MVVM-Architecture/tree/kodein_coroutine_livedata) 
-* [Jetpack + RxJava + Kodein](https://github.com/qingmei2/MVVM-Architecture/tree/branch_rxjava) 
+* [Jetpack + Coroutine + Dagger-Hilt](https://github.com/gavibYip/MVVM-Architecture) 
+* [Jetpack + Coroutine + Kodein](https://github.com/gavibYip/MVVM-Architecture/tree/kodein_coroutine_livedata) 
+* [Jetpack + RxJava + Kodein](https://github.com/gavibYip/MVVM-Architecture/tree/branch_rxjava) 
 
-* 我为什么放弃了`DataBinding`，以及我个人对MVVM`的 **[理解](https://github.com/qingmei2/MVVM-Architecture/issues/15)** 。
+* 我为什么放弃了`DataBinding`，以及我个人对MVVM`的 **[理解](https://github.com/gavibYip/MVVM-Architecture/issues/15)** 。
 
-* 我对这个项目的 **[定位](https://github.com/qingmei2/MVVM-Architecture/issues/44)** 。
+* 我对这个项目的 **[定位](https://github.com/gavibYip/MVVM-Architecture/issues/44)** 。
 
 ## 三方组件
 
@@ -58,7 +58,7 @@
 
 如果编译遇到如下图的错误：
 
-![](https://github.com/qingmei2/MVVM-Rhine/blob/master/screenshots/compile_error.png)
+![](https://github.com/gavibYip/MVVM-Rhine/blob/master/screenshots/compile_error.png)
 
 > 出现这个问题的原因，最新版本的代码，需要开发者注册一个自己的`OAuth Application`，注册后，`Github`的API访问次数就能达到5000次/小时（之前的版本只有60次/小时），之前很多朋友反应在Debug过程中不够用，断点打了几次就被限制请求了，因此最新版本添加了这个配置的步骤，虽然麻烦了一小步，但是对于学习效率的提升，这点配置时间可以忽略不计。
 
@@ -72,7 +72,7 @@ $ git clone https://github.com/gavibYip/MVVM-Architecture.git
 
 首先参考[这个链接](https://docs.github.com/cn/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token), 注册获取属于你的`Access Token`：
 
-![](https://github.com/qingmei2/MVVM-Rhine/blob/master/screenshots/access_token.png)
+![](https://github.com/gavibYip/MVVM-Rhine/blob/master/screenshots/access_token.png)
 
 获取到AccessToken后，并配置到你的项目根目录的`local.properties`文件中：
 
