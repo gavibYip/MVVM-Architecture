@@ -21,7 +21,6 @@ import kotlinx.coroutines.launch
 class HomeFragment : BaseFragment() {
 
     private val mViewModel: HomeViewModel by viewModels()
-
     override val layoutId: Int = R.layout.fragment_home
 
     private val mAdapter: HomePagedAdapter = HomePagedAdapter()
