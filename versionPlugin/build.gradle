@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.72"
@@ -11,6 +12,7 @@ apply plugin: 'kotlin'
 apply plugin: 'java-gradle-plugin'
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 gradlePlugin {

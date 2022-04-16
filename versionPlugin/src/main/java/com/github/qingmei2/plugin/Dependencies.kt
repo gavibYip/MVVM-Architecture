@@ -2,13 +2,14 @@ package com.github.qingmei2.plugin
 
 object Versions {
     const val android_plugin = "4.0.0"
-    const val kotlin = "1.3.72"
+    const val kotlin = "1.4.32"
     const val kotlin_coroutines = "1.3.3"
 
     const val appcompat = "1.1.0"
     const val jetpack_lifecycle = "2.2.0-rc03"
     const val jetpack_viewModel = "2.2.0-rc03"
     const val jetpack_room = "2.3.0"
+    const val jetpack_room2 = "2.4.0-alpha03"
     const val jetpack_navigation = "2.2.0-rc04"
     const val jetpack_paging = "3.0.0-alpha04"
     const val jetpack_datastore = "1.0.0-alpha01"
@@ -84,8 +85,8 @@ object Dependencies {
     const val datastore = "androidx.datastore:datastore-preferences:${Versions.jetpack_datastore}"
     const val protobuf = "com.google.protobuf:protobuf-javalite:3.10.0"
 
-    const val room = "androidx.room:room-runtime:${Versions.jetpack_room}"
-    const val roomCompiler = "androidx.room:room-compiler:${Versions.jetpack_room}"
+    const val room = "androidx.room:room-runtime:${Versions.jetpack_room2}"
+    const val roomCompiler = "androidx.room:room-compiler:${Versions.jetpack_room2}"
     const val roomKtx = "androidx.room:room-ktx:${Versions.jetpack_room}"
     const val roomRx = "androidx.room:room-rxjava2:${Versions.jetpack_room}"
     const val roomTesting = "androidx.room:room-testing:${Versions.jetpack_room}"
