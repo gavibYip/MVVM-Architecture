@@ -16,15 +16,6 @@
 
 * 我对这个项目的 **[定位](https://github.com/qingmei2/MVVM-Architecture/issues/44)** 。
 
-## 屏幕截图
-
-<div align:left;display:inline;>
-<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-17fd103f3c524a1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
-<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-33af9e0ee5686851.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
-<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-177d808edca4f7ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
-<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-20e72a2bdfaa8f7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
-</div>
-
 ## 三方组件
 
 ### Android Jetpack 组件
@@ -74,7 +65,7 @@
 * 1.直接通过git命令行进行clone:
 
 ```shell
-$ git clone https://github.com/qingmei2/MVVM-Architecture.git
+$ git clone https://github.com/gavibYip/MVVM-Architecture.git
 ```
 
 * 2.注册你的GitHub App
@@ -115,10 +106,6 @@ USER_ACCESS_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxx"
 
 :star: 项目参考了 [rx-mvvm-android](https://github.com/ffgiraldez/rx-mvvm-android) 并对其部分代码进行了引用.
 
-## Contributor
-
-* [DaQinShgy](https://github.com/DaQinShgy)
-* [GeorgCantor](https://github.com/GeorgCantor)
 
 ## License
 
